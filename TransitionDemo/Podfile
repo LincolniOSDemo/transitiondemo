@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TransitionDemo' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TransitionDemo
+
+  target 'TransitionDemoTests' do
+    inherit! :search_paths
+    pod 'Masonry'
+  end
+
+  target 'TransitionDemoUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

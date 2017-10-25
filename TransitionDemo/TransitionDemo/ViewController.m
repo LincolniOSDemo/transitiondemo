@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController ()<UIViewControllerTransitioningDelegate>
 
 @end
 
@@ -24,6 +24,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark UIViewControllerTransitioningDelegate
 
 
 @end
